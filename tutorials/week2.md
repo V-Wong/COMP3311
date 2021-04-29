@@ -8,9 +8,13 @@
    b. A **relation** in a relational-model is a name and a **set of attributes**. 
    An **instance** of a relation is a set of **tuples** of attribute values.
 
+6. Diagram a) is more **granular** as it stores how much time each researcher worked on a project. In contrast, diagram b) only stores how much time was spent on the project as a whole. We can not infer how much time any given research spent on the project in diagram b).
+
+    In both cases, the thick line between ``WorksOn`` and ``Project`` indicates that every project must have at least one project working on it. But a research doesn't necessarily have to work on any projects.
+
 8. The first design associates each person with a list of their liked cuisines. In contrast, the second design creates a many-to-many relationship between a person and their cuisines they like. The second design allows **more information** to be associated with each cuisine, while the first can **only associate a name** with each cuisine.
 
-16. Relation model components:
+16. **Relation model** components:
 
 |Component|Description|
 |-|-|
@@ -23,7 +27,7 @@
 |Key|A **subset of attributes** of a relation **unique** for each tuple.|
 |Foreign key|A **set of attributes** that are the **primary key of one relation** used to **associate with another relation**.|
 
-16. **Duplicate** tuples are not allowed in relations as relations are defined as **sets**.
+17. **Duplicate** tuples are not allowed in relations as relations are defined as **sets**.
 
 18. Consider the following simple relational schema:
 ```
