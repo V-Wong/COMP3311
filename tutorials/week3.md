@@ -7,7 +7,7 @@
     a. Each staff teaches up to one subject.
 
     |<u>Staff#</u>|SubjCode|Semester|
-    |-|-|-|-|
+    |-|-|-|
 
     |<u>SubjCode</u>|.....|
     |-|-|
@@ -15,10 +15,10 @@
     b. Each staff can teach any number of subjects. Each subject can be taught by any number of staff.
 
     |<u>Staff#</u>|.....|
-    |-|-|-|-|
+    |-|-|
 
     |<u>Staff#|<u>SubjCode</u>|Semester|
-    |-|-|-|-|
+    |-|-|-|
 
     |<u>SubjCode</u>|.....|
     |-|-|
@@ -26,7 +26,7 @@
     c. Each teacher can teach up to one subject. Each subject must be taught by one teacher.
 
     |<u>SubjCode</u>|Staff#|Semester|
-    |-|-|-|-|
+    |-|-|-|
 
     |<u>Staff#</u>|.....|
     |-|-|
