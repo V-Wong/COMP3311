@@ -1,4 +1,4 @@
-# COMP3311
+# COMP3311 - Database Systems
 ## Data Modelling
 - [Overview](data_modelling/overview.md)
 - [Entity-Relationship Models](data_modelling/er_model.md)
