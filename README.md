@@ -10,9 +10,9 @@
 - [Aggregates](sql/aggregates.md)
 
 ## Relational Algebra
-- [Operations](relational_algebra/operations)
+- [Operations](relational_algebra/operations.md)
 
 ## Relational Design
-- [Functional Dependencies](relational_design/functional_dependency)
+- [Functional Dependencies](relational_design/functional_dependency.md)
 - [Closures and Minimal Covers](relational_design/closures_minmal_covers.md)
 - [Normalisation](relational_design/normalisation.md)
